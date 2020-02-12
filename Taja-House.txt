@@ -7,10 +7,14 @@ HTML is a markup language used to present a web document .
 An attribute is what defines an element or file or object. We put this in front of things like hrefs, images and videos.
     4. What is the h1 tag used for? How many times should I use it on a page?
 The h1 tag is used for the title of the page. It is preferably used once.
-    5. Name two tags that have required attributes
+    5. Name two tags that have required attributes?
+The <a> tag needs the href atribute and the <img> tag needs the srs attribute.
     6. What do we put in the head of our HTML document? 
+Typically you will put <html> <head> <body>
     7. What is an id? 
+an id is an html attribute to allow the element to be unique
     8. What elements can I add an id to? 
+h1, div, body...
     9. How many times can I use the same id on a page? 
     10. What is a class? 
     11. What elements can I add a class to? 
