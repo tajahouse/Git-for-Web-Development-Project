@@ -22,7 +22,7 @@ An attribute that specifies one or more classes.
     11. What elements can I add a class to?
  divs
     12. How many times can I use the same class on a page? 
-only 1 time!
+only as many times as you want!
     13. How do I get my link to open in a new tab?
 target="_blank"
     14. What is the alt attribute used for?
@@ -41,10 +41,15 @@ a class is called in css like .classname whereas an id is called in html like #i
     20. How do we select classes in CSS?
 .classname
     21. How do we select a p element with a single class of “human””?
+    p.human
     22. What is a parent child selector? When would this be useful? 
+    It's to match all of the elements where it's specified such as what is contained in one another. This is good to keep the code legible
     23. How do you select all links within a div with the class of sidebar?
-    24. What is a pseudo selector?
+    #div.sidebar
+    24. What is a pseudo selector?    
+    its a class that is added to some elements 
     25. What do we use the change the spacing between lines?
+    
     26. What do we use to change the spacing between letters?
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
     28. How do I add a 1px border around my div that is dotted and black?
