@@ -33,9 +33,13 @@ target="_blank"
 section tags are used for large parts of the document such as headers and footers
 while divs are just a container.
     17. What is CSS used for? 
+CSS is to add pizazz to your page... color, borders, font... the cute stuff
     18. How to we select an element? Example - every h2 on the page
+element{} like h2{}
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+a class is called in css like .classname whereas an id is called in html like #idname
     20. How do we select classes in CSS?
+.classname
     21. How do we select a p element with a single class of “human””?
     22. What is a parent child selector? When would this be useful? 
     23. How do you select all links within a div with the class of sidebar?
