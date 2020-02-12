@@ -24,9 +24,14 @@ An attribute that specifies one or more classes.
     12. How many times can I use the same class on a page? 
 only 1 time!
     13. How do I get my link to open in a new tab?
-    14. What is the alt attribute used for? 
+target="_blank"
+    14. What is the alt attribute used for?
+ It's for alternate information within a src or image or video, etc.
     15. How do I reference an id?
+#idname
     16. What is the difference between a section and a div
+section tags are used for large parts of the document such as headers and footers
+while divs are just a container.
     17. What is CSS used for? 
     18. How to we select an element? Example - every h2 on the page
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
