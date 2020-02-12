@@ -57,20 +57,46 @@ a class is called in css like .classname whereas an id is called in html like #i
     div{
         border: 1px dotted black
     }
-    29. How do I select everything on the page? 
+    29. How do I select everything on the page?
+     use the css selector *
     30. How do I write a comment in CSS?
+    /**/
     31. How do I find out what file I am in, when I am using the command line? 
+    pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm file.. Be careful because you won't get a prompt and it won't go into a recycle ben. 
     34. Why should I use version control? 
+using version controls like github allows you to have snapshots of the work you completed without deleting your progress.
     35. How often should I commit to github?
+    after each step.. i think
     36. What is the command we would use to push our repo up to github? 
+    git push -u origin "repository"
     37. Walk me through Lambda's git flow. 
-
+create a repo or fork an existing, add TL as collaborator, clone the repo, go to the CLI and go to the correct directory to 
+add the cloned repo, use git clone and paste repo, cd into new repo, use git checkout -b "fn-ln"
+now work on repo: make sure to commit and push by-- git add ., git commit -m "words",
+git push -u origin branch-name, and we're good to go!!
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+    an inline element example: Writing css code inside the html document. Block elements separate the codes.
     2. What happens when an element is positioned absolutely? 
+    It is taken out of the flow and the other elements adjust as if it didn't exist! Cool!
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    create an inline element and then expand ta div to fill the remaining width?
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    block level elements: div, section, ul 
+    inline: span and div 
+    inline-block: img?
     5. In your own words, explain the box model. What is the fix for the box model? 
+    the box model is a guideline that can be folowed to keep the page shaped orderly. It includes the margin, border,and padding
+    You can use css elements and the guidelines to "fix" it. Such as if it is in a div
+    we can just say div{
+        width:
+        border:
+        padding:
+        margin:
+
+    }
